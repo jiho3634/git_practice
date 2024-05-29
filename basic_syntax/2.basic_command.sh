@@ -38,3 +38,6 @@ git checkout commit_ID
 
 # 다시 현재의 master(브랜치)의 commit로 return
 git checkout master
+
+# 원격에 변경사항을 로컬로 다운로드
+git pull
