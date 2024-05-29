@@ -7,5 +7,12 @@ git init
 
 # 원격지 주소를 생성 및 추가
 # 원격지 주소 추가
-git remote add origin repo_path
+git remote add origin repo_address
 git remote add origin https://github.com/jiho3634/git_practice.git
+# 원격지 주소 삭제
+git remote remove origin
+# 원격지 주소 변경
+git remote set-rul origin repo_address
+git remote set-rul origin https://github.com/jiho3634/git_practice.git
+# git 설정정보 조회
+git config --list
