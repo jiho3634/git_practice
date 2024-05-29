@@ -53,4 +53,19 @@ git push origin master(또는 main)
 git config --global user.name "jiho3634"
 git config --global user.email "jiho3634@gmail.com"
 
-# 지역적 사용자 지정
+# 지역적 사용자 지정(이름, 이메일) 지정
+# 현재 레파지토리에 한해서만 사용자 변경
+git config --local user.name "jiho3634"
+git config --local user.email "jiho3634@gmail.com"
+
+# repository, 이름, email 등...
+git config --list
+
+# 사용자 이름 조회
+git config user.name
+
+# 사용자 이메일 조회
+git config user.email
+
+# git ignore 파일 실습
+# 확장자 .gitignore 파일 생성 후 git 추적 제외 대상 나열
