@@ -93,3 +93,13 @@ git stash apply stash@{원하는index}
 
 #전체 stash목록 클리어
 git stash clear
+
+# 버전명시 tagging
+git tag v1.0 -m "message"
+
+# tag release 배포
+# commit 푸시와 상관없이 태그(release) 별도 push
+git push origin v1.0
+
+# 태그 목록 조회
+git tag
