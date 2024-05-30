@@ -82,4 +82,14 @@ git stash pop
 # 저장한 작업사항 목록조회
 git stash list
 
-git stash show -p index
+# 저장한 작업사항 조회
+git stash show index
+
+# 복사본 내용 상세 조회
+git stash show index -p
+
+# stash는 놔둔채 저장사항 적용
+git stash apply stash@{원하는index}
+
+#전체 stash목록 클리어
+git stash clear
