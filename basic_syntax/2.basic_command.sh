@@ -114,4 +114,10 @@ git checkout 브랜치명
 # 브랜치 목록 조회
 git branch
 
-merge 충돌 유발!!!
+# 새 브랜치를 생성하고 해당 브랜치로 전환을 동시에
+git checkout –b 브랜치명
+
+# branch 삭제
+# 다른 브랜치로 checkout 한 후에 대상 브랜치 삭제
+git branch -D 브랜치명 # 로컬브랜치삭제
+git push origin --delete 브랜치명 # 리모트브랜치도 삭제 또는 github에서 직접 삭제
