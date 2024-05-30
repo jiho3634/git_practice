@@ -75,6 +75,8 @@ git diff A브랜치 B브랜치
 
 # 모든 브랜치의 정보 가져옴
 git fetch --all
+# 삭제된 브랜치 정보까지 가져옴
+git fetch --all --prune 
 
 # 작업 중인 사항을 임시저장
 git stash
@@ -123,4 +125,4 @@ git checkout –b 브랜치명
 # branch 삭제
 # 다른 브랜치로 checkout 한 후에 대상 브랜치 삭제
 git branch -D 브랜치명 # 로컬브랜치삭제
-git push origin --delete 브랜치명 # 리모트브랜치도 삭제 또는 github에서 직접 삭제
+git push origin --delete 브랜치명 # 리모트브랜치 삭제 또는 github에서 직접 삭제
