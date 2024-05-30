@@ -82,3 +82,4 @@ git stash pop
 # 저장한 작업사항 목록조회
 git stash list
 
+git stash show -p index
